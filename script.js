@@ -17,7 +17,7 @@ window.onload = function(){
     
     function init(){
         var canvas = document.createElement('canvas');
-        canvas.background = url(./love-bg.jpg)
+        canvas.style.background = url(./love-bg.jpg)
         canvas.width = canvasWidth;
         canvas.height = canvasHeight;
         canvas.style.border = "30px solid gray";
