@@ -23,7 +23,6 @@ window.onload = function(){
         canvas.style.border = "30px solid gray";
         canvas.style.margin = "50px auto";
         canvas.style.display = "block";
-        canvas.style.backgroundColor = "#ddd";
         canvas.style.background = url(./love-bg.jpg);
         document.body.appendChild(canvas);
         ctx = canvas.getContext('2d');
