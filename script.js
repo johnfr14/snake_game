@@ -17,13 +17,14 @@ window.onload = function(){
     
     function init(){
         var canvas = document.createElement('canvas');
-        canvas.style.background = url(./love-bg.jpg)
+        
         canvas.width = canvasWidth;
         canvas.height = canvasHeight;
         canvas.style.border = "30px solid gray";
         canvas.style.margin = "50px auto";
         canvas.style.display = "block";
         canvas.style.backgroundColor = "#ddd";
+        canvas.style.background = url(./love-bg.jpg);
         document.body.appendChild(canvas);
         ctx = canvas.getContext('2d');
         snakee = new Snake([[6,4],[5,4],[4,4],[3,4],[2,4]],"right");
