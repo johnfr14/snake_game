@@ -1,5 +1,5 @@
 window.onload = function(){
-    var canvasWidth = 800;
+    var canvasWidth = 750;
     var canvasHeight = 600;
     var blockSize = 30;
     var ctx;
