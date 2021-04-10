@@ -23,7 +23,7 @@ window.onload = function(){
         canvas.style.border = "30px solid gray";
         canvas.style.margin = "50px auto";
         canvas.style.display = "block";
-        canvas.style.background = url(./love-bg.jpg);
+        canvas.style.backgroundImage = url(./love-bg.jpg);
         document.body.appendChild(canvas);
         ctx = canvas.getContext('2d');
         snakee = new Snake([[6,4],[5,4],[4,4],[3,4],[2,4]],"right");
